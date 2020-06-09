@@ -1,0 +1,135 @@
+body{
+	font-family: sans-serif;
+	background-color: #001f3f
+}
+.container1{
+    
+	width: 1000px;
+	height: 630px;
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    margin: 20px auto;
+}
+.iphone{
+    width: 300px;
+    height: 630px;
+    margin: 0 auto;
+    border-radius: 40px;
+     background-color: #1c1c1c; 
+     /* background-color: white; */
+    
+}
+.speaker{
+    position: relative;
+    top:5px;
+    margin: 10px auto;
+    height: 5px;
+    width: 60px;
+    border-radius: 40px;
+    background: black;
+}
+.selfie{
+    position: relative;
+    top: -11px;
+    margin-left: 185px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: black;
+}
+.result{
+    height: 200px;
+}
+
+button{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    outline: none; 
+    margin: 8.5px;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+.number{
+    background: #404040;
+    color: white;
+}
+
+.number:hover{
+   background:  rgb(140, 140, 140);
+}
+.zero{
+    width: 133px;
+    margin-left: 8.5px;
+    border-radius: 40px;
+
+}
+
+.silver{
+    background: rgb(160, 160, 160);
+    color: black;
+}
+.clear:hover{
+    background: rgba(255, 255, 255, 0.8);
+    
+}
+
+.history{
+   height: 50px;
+   margin: 0 20px;
+   text-align: right;
+   padding-top: 20px;
+   font-size: 15px;
+   color: #919191;
+}
+p#history-value{
+ color: #1c1c1c;
+ 
+}
+.output{
+    text-align: right;
+    text-align: bottom;
+    height: 150px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 70px;
+    font-size: 47px;
+    color: white;
+   
+}
+#ouput-value{
+    position: relative;
+    margin-bottom: 10px;
+}
+.keyboard{
+    height: 430px;
+}
+
+button:nth-child(4n+0){
+    background: orange;
+    color: white;
+}
+button:nth-child(4n+0):hover{
+    background: rgb(255, 149, 0, 0.6);
+}
+
+.equal{
+    background: orange;
+    color: rgb(104, 57, 57);
+    color:white;
+}
+.equal:hover{
+    background: rgb(255, 149, 0, 0.8);
+}
+
+.scroll{
+    height: 5px;
+    width: 120px;
+    background: white;
+    position: relative;
+    margin-left: 90px;
+    bottom: 35px;
+    border-radius: 30px;
+}
+
